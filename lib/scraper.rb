@@ -15,7 +15,6 @@ class Scraper
        course.description = post.css("p").text
       end
     end
-binding.pry
 
 
 
@@ -32,5 +31,6 @@ binding.pry
   end
 
 end
+binding.pry
 
 Scraper.new.get_page
